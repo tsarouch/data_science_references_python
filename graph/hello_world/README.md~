@@ -1,0 +1,9 @@
+### Hello World example
+Find details here:
+https://neo4j.com/docs/operations-manual/current/tutorial/import-tool/
+</br>
+This is a simple example of importing .csv files in the neo4j DB
+</br>
+### Import Shell cmd (for fast DB population)
+> neo4j_home$ bin/neo4j-admin import --nodes data/movies.csv --nodes data/actors.csv --relationships data/roles.csv
+
